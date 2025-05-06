@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get It Done-Register</title>
+    <link rel="stylesheet" href="Register-Page.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/Get-It-Done Favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+    <header>
+        <h2 class="GetItDone">Get It Done</h2>
+        <nav class="navigation">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="plans.html">plans</a>
+            <a href="#">Contact</a>
+            <button onclick="Login()" class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user'></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="terms-conditions">
+                    <label><input type="checkbox" required> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="register-login">
+                    <p>Already have an account?<a href="Login-Page.html" class="Login-link"> Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function Login(){
+            window.location.href = "Login-page.html";
+        }
+    </script>
+
+
+</body>
+</html>
